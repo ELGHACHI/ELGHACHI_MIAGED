@@ -14,7 +14,7 @@ class UserProductScreen extends StatelessWidget {
     return Scaffold(
       drawer: AppDrawer(),
       appBar: AppBar(
-        title: const Text('Your product'),
+        title: const Text('Edition des produit'),
         actions: [
           IconButton(
             onPressed: () {

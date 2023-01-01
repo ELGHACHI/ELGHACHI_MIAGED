@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
     final theme = Provider.of<ThemeManager>(context);
     return Scaffold(
       appBar: AppBar(
-        title: const Text("My Shop"),
+        title: const Text("MIAGED"),
         actions: [
           Consumer<Cart>(
             builder: ((context, value, ch) => Badge(

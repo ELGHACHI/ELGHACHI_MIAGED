@@ -6,35 +6,77 @@ class Products with ChangeNotifier {
   List<Product> _items = [
     Product(
       id: 'p1',
-      title: 'Red Shirt',
-      description: 'A red shirt - it is pretty red!',
+      title: 'Blue Shorts',
+      description: 'adidas Originals California Swim Shorts',
       price: 29.99,
       imageUrl:
-          'https://cdn.pixabay.com/photo/2016/10/02/22/17/red-t-shirt-1710578_1280.jpg',
+          'https://i8.amplience.net/i/jpl/jd_521060_c?qlt=92&w=950&h=1212&v=1&fmt=auto',
     ),
     Product(
-      id: 'p2',
-      title: 'Trousers',
-      description: 'A nice pair of trousers.',
-      price: 59.99,
-      imageUrl:
-          'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Trousers%2C_dress_%28AM_1960.022-8%29.jpg/512px-Trousers%2C_dress_%28AM_1960.022-8%29.jpg',
-    ),
+        id: 'p2',
+        title: 'rose ,Shorts',
+        description: 'adidas Originals California Swim Shorts.',
+        price: 59.99,
+        imageUrl:
+            'https://i8.amplience.net/i/jpl/jd_597138_d?qlt=92&w=950&h=1212&v=1&fmt=auto'),
     Product(
       id: 'p3',
-      title: 'Yellow Scarf',
-      description: 'Warm and cozy - exactly what you need for the winter.',
+      title: 'Gloves',
+      description: 'Nike Training Fitness Gloves.',
       price: 19.99,
       imageUrl:
-          'https://live.staticflickr.com/4043/4438260868_cc79b3369d_z.jpg',
+          'https://i8.amplience.net/i/jpl/jd_158971_a?qlt=92&w=950&h=1212&v=1&fmt=auto',
     ),
     Product(
-      id: 'p4',
-      title: 'A Pan',
-      description: 'Prepare any meal you want.',
-      price: 49.99,
+        id: 'p4',
+        title: 'Casquettes',
+        description: 'Lacoste Nylon Cap.',
+        price: 47.99,
+        imageUrl:
+            'https://i8.amplience.net/i/jpl/jd_179067_b?qlt=92&w=950&h=1212&v=1&fmt=auto'),
+    Product(
+        id: 'p5',
+        title: 'A Polo',
+        description: 'BOSS Paddy Polo Shirt.',
+        price: 49.99,
+        imageUrl:
+            'https://i8.amplience.net/i/jpl/jd_574214_c?qlt=92&w=950&h=1212&v=1&fmt=auto'),
+    Product(
+        id: 'p6',
+        title: 'A polo',
+        description: 'BOSS Paddy Polo Shirt.',
+        price: 22.99,
+        imageUrl:
+            'https://i8.amplience.net/i/jpl/jd_609321_b?qlt=92&w=950&h=1212&v=1&fmt=auto'),
+    Product(
+        id: 'p7',
+        title: 'Hoddies',
+        description: 'adidas Originals Trefoil Essential Fleece Hoodie.',
+        price: 39.99,
+        imageUrl:
+            'https://i8.amplience.net/i/jpl/jd_578551_a?qlt=92&w=950&h=1212&v=1&fmt=auto'),
+    Product(
+      id: 'p8',
+      title: 'A Hoddies',
+      description: 'adidas Originals Trefoil Essential Fleece Hoodie.',
+      price: 41.99,
       imageUrl:
-          'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Cast-Iron-Pan.jpg/1024px-Cast-Iron-Pan.jpg',
+          'https://i8.amplience.net/i/jpl/jd_578566_b?qlt=92&w=950&h=1212&v=1&fmt=auto',
+    ),
+    Product(
+        id: 'p9',
+        title: 'Gazelle',
+        description: 'adidas Originals Gazelle.',
+        price: 79.99,
+        imageUrl:
+            'https://i8.amplience.net/i/jpl/jd_066498_a?qlt=92&w=950&h=673&v=1&fmt=auto'),
+    Product(
+      id: 'p10',
+      title: 'Adidasr',
+      description: 'adidas Originals Gazelle.',
+      price: 39.99,
+      imageUrl:
+          'https://i8.amplience.net/t/jpl/jd_product_list?plu=jd_020680_bl&qlt=85&qlt=92&w=726&h=726&v=1&fmt=auto',
     ),
   ];
 
